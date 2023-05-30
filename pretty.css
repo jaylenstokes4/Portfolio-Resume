@@ -2,30 +2,39 @@ body{
     background-image:url(https://wallpaperaccess.com/full/1503528.jpg);
     background-position: center, bottom;
     border: solid 3px blue;
+    color: orchid;
+    margin:0% 
     
 }    
  #wrapper{
-    background-color: darkslategray;
+    background-color: black;
     margin: 0 auto;
     width: 90%;
     height: 100%;
+    opacity: 0.85;
+    
 
 }   
 
 
-h1{
+h1, h2{
     text-align: center;
 }
-h2{
-    text-align: center;
-}
+
 p{
     font-family: Georgia, 'Times New Roman', Times;
     text-align: left;
     padding: 15px;
-
 }
+
 ul{
     list-style: none;
     text-align: center;
+    /*display: inline; should make this in a row, but might need to make it a class so bottom list doesnt change or inline css */
+    
+}
+a{
+    text-decoration: none;
+    color: orangered;
+
 }
